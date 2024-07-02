@@ -111,16 +111,14 @@ const withClapAnimation = (WrappedComponent) => {
   return WithClapAnimation;
 };
 
-function getDisplayName(WrappedComponent) {
-  return WrappedComponent.displayName || WrappedComponent.name || "Component";
-}
+
 
 /** ====================================
  *      🔰 MediumClap
 ==================================== **/
 const initialState = {
   count: 0,
-  countTotal: generateRandomNumber(500, 10000),
+  countTotal: 267,
   isClicked: false,
 };
 
